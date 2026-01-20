@@ -1,0 +1,6332 @@
+[
+  [
+    {
+      "label": "원전-A",
+      "id": 1,
+      "setProperty": true,
+      "uniqueId": "052e4983-d239-4ba1-8b52-55ad72f5dee4",
+      "lat": 35.583908,
+      "lng": 126.562562
+    },
+    {
+      "label": "345kV-A",
+      "id": 3,
+      "setProperty": true,
+      "property": [
+        {
+          "name": "",
+          "depth": 1,
+          "values": [
+            {
+              "name": "수요용량",
+              "data": 0,
+              "unit": "MW",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "송전설로 건설단가",
+              "data": 2060,
+              "unit": "백만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "접속 공사비 단가",
+              "data": 200,
+              "unit": "천원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "여유 용량",
+              "data": 0,
+              "unit": "MW",
+              "modify": true,
+              "is_default": false,
+              "depth": 2
+            },
+            {
+              "name": "최대 수용 용량",
+              "data": 13,
+              "unit": "MW",
+              "modify": true,
+              "is_default": false,
+              "depth": 2
+            }
+          ]
+        }
+      ],
+      "uniqueId": "8c0be0e1-5075-405f-b2b0-d11060b378e1",
+      "lat": 35.583908,
+      "lng": 126.562562,
+      "modifiedAt": "2025-11-11T07:36:25.932Z"
+    },
+    {
+      "label": "154kV-A",
+      "id": 4,
+      "setProperty": true,
+      "property": [
+        {
+          "name": "",
+          "depth": 1,
+          "values": [
+            {
+              "name": "수요용량",
+              "data": 0,
+              "unit": "MW",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "송전설로건설단가",
+              "data": 102,
+              "unit": "백만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "접속공사비단가",
+              "data": 120,
+              "unit": "천원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "여유용량",
+              "data": 0,
+              "unit": "MW",
+              "modify": true,
+              "is_default": false,
+              "depth": 2
+            },
+            {
+              "name": "최대수용용량",
+              "data": 13,
+              "unit": "MW",
+              "modify": true,
+              "is_default": false,
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "name": "송전접속단가_1년사용기존",
+          "depth": 1,
+          "values": [
+            {
+              "name": "일별사용시간",
+              "data": 8,
+              "unit": "hr/day",
+              "modify": true,
+              "is_default": false,
+              "depth": 2
+            },
+            {
+              "name": "기본단가",
+              "data": 667.61,
+              "unit": "원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "사용단가",
+              "data": 1.42,
+              "unit": "원/kWh",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "name": "송전손실단가_1년사용기존",
+          "depth": 1,
+          "values": [
+            {
+              "name": "원전",
+              "data": 0.03,
+              "unit": "원/MWh",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "석탄화력",
+              "data": 0.03,
+              "unit": "원/MWh",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "가스복합",
+              "data": -1.39,
+              "unit": "원/MWh",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "소수력",
+              "data": 0,
+              "unit": "원/MWh",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            }
+          ]
+        }
+      ],
+      "uniqueId": "64b7b1e2-c62c-43df-a2d0-8a4114d25b71",
+      "lat": 35.237738,
+      "lng": 126.898987,
+      "modifiedAt": "2025-11-11T07:36:28.266Z"
+    },
+    {
+      "label": "22.9kV-A",
+      "id": 5,
+      "setProperty": true,
+      "property": [
+        {
+          "name": "",
+          "depth": 1,
+          "values": [
+            {
+              "name": "수요용량",
+              "data": 0,
+              "unit": "MW",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "여유용량",
+              "data": 0,
+              "unit": "MW",
+              "modify": true,
+              "is_default": false,
+              "depth": 2
+            },
+            {
+              "name": "최대수용용량",
+              "data": 13,
+              "unit": "MW",
+              "modify": true,
+              "is_default": false,
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "name": "배전망구축단가",
+          "depth": 1,
+          "values": [
+            {
+              "group": "신축-AC",
+              "name": "배전선로단가",
+              "data": 3800,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-AC",
+              "name": "전주공사단가",
+              "data": 3300,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-AC",
+              "name": "선로토체단가",
+              "data": 2400,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-AC",
+              "name": "변압기단가",
+              "data": 2200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-AC",
+              "name": "차단기단가",
+              "data": 1200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-AC",
+              "name": "토목건설단가",
+              "data": 2500,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-AC",
+              "name": "운용비용단가",
+              "data": 1600,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-AC",
+              "name": "부대비용단가",
+              "data": 1800,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-DC",
+              "name": "배전선로단가",
+              "data": 6200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-DC",
+              "name": "전주공사단가",
+              "data": 4800,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-DC",
+              "name": "선로토체단가",
+              "data": 3600,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-DC",
+              "name": "변압기단가",
+              "data": 3500,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-DC",
+              "name": "차단기단가",
+              "data": 2200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-DC",
+              "name": "토목건설단가",
+              "data": 4000,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-DC",
+              "name": "운용비용단가",
+              "data": 2200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-DC",
+              "name": "부대비용단가",
+              "data": 2800,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-AC",
+              "name": "배전선로단가",
+              "data": 3800,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-AC",
+              "name": "전주공사단가",
+              "data": 0,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-AC",
+              "name": "선로토체단가",
+              "data": 2400,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-AC",
+              "name": "변압기단가",
+              "data": 2200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-AC",
+              "name": "차단기단가",
+              "data": 1200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-AC",
+              "name": "토목건설단가",
+              "data": 0,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-AC",
+              "name": "운용비용단가",
+              "data": 1600,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-AC",
+              "name": "부대비용단가",
+              "data": 1800,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-DC",
+              "name": "배전선로단가",
+              "data": 6200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-DC",
+              "name": "전주공사단가",
+              "data": 0,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-DC",
+              "name": "선로토체단가",
+              "data": 3600,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-DC",
+              "name": "변압기단가",
+              "data": 3500,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-DC",
+              "name": "차단기단가",
+              "data": 2200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-DC",
+              "name": "토목건설단가",
+              "data": 0,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-DC",
+              "name": "운용비용단가",
+              "data": 2200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-DC",
+              "name": "부대비용단가",
+              "data": 2800,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            }
+          ]
+        }
+      ],
+      "uniqueId": "d2e09a04-ecc3-440a-99ed-fb84262437bb",
+      "lat": 35.223603,
+      "lng": 126.843246,
+      "modifiedAt": "2025-11-11T07:36:33.129Z",
+      "expansionType": "신축",
+      "powerType": "DC"
+    },
+    {
+      "label": "수요지역-A",
+      "id": 6,
+      "property": [
+        {
+          "name": "수요지역정보",
+          "depth": 1,
+          "values": [
+            {
+              "name": "주소",
+              "data": "광주 북구 첨단벤처소로62번길 20-7",
+              "unit": "-",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "수요용량",
+              "unit": "MW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2,
+              "data": 0.02
+            },
+            {
+              "name": "일별 전력 사용시간",
+              "unit": "hr/day",
+              "modify": true,
+              "is_default": true,
+              "depth": 2,
+              "data": 8
+            }
+          ]
+        }
+      ],
+      "uniqueId": "c46f392e-6084-4a4f-b75c-68e92f4f98dd",
+      "lat": 0,
+      "lng": 0,
+      "setProperty": true,
+      "modifiedAt": "2025-11-11T07:39:57.612Z"
+    },
+    {
+      "label": "ESS-A",
+      "id": 7,
+      "setProperty": true,
+      "property": [
+        {
+          "name": "",
+          "depth": 1,
+          "values": [
+            {
+              "name": "설치용량",
+              "data": 0.02,
+              "unit": "MW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "계통 유연계수",
+              "data": 0,
+              "unit": "(0.00~0.10)",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "여유용량",
+              "data": 0.02,
+              "unit": "MW",
+              "modify": true,
+              "is_default": false,
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "name": "ESS(에너지저장장치)구축단가",
+          "depth": 1,
+          "values": [
+            {
+              "group": "신축",
+              "name": "설비비용",
+              "data": 1200,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축",
+              "name": "유지비용",
+              "data": 40,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용",
+              "data": null,
+              "unit": "",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용_1MW이하",
+              "data": 50,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용_1MW~50MW",
+              "data": 100,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용_50MW이상",
+              "data": 150,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용_총비용",
+              "data": 5,
+              "unit": "억원/고정비",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "인허가비용",
+              "data": null,
+              "unit": "",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축",
+              "name": "인허가비용_총비용",
+              "data": 30,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "설비비용",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "기존",
+              "name": "유지비용",
+              "data": 40,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용",
+              "data": null,
+              "unit": "",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용_1MW이하",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용_1MW~50MW",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용_50MW이상",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용_총비용",
+              "data": 0,
+              "unit": "억원/고정비",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "인허가비용",
+              "data": null,
+              "unit": "",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "기존",
+              "name": "인허가비용_총비용",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            }
+          ]
+        }
+      ],
+      "uniqueId": "43042780-fa3d-4302-9a1d-27cf01277623",
+      "lat": 35.232523,
+      "lng": 126.8631,
+      "modifiedAt": "2025-11-11T07:41:52.023Z",
+      "expansionType": "신축"
+    }
+  ],
+  [
+    {
+      "label": "원전-A",
+      "id": 1,
+      "setProperty": true,
+      "uniqueId": "052e4983-d239-4ba1-8b52-55ad72f5dee4",
+      "lat": 35.583908,
+      "lng": 126.562562
+    },
+    {
+      "label": "345kV-A",
+      "id": 3,
+      "setProperty": true,
+      "property": [
+        {
+          "name": "",
+          "depth": 1,
+          "values": [
+            {
+              "name": "수요용량",
+              "data": 0,
+              "unit": "MW",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "송전설로 건설단가",
+              "data": 2060,
+              "unit": "백만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "접속 공사비 단가",
+              "data": 200,
+              "unit": "천원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "여유 용량",
+              "data": 0,
+              "unit": "MW",
+              "modify": true,
+              "is_default": false,
+              "depth": 2
+            },
+            {
+              "name": "최대 수용 용량",
+              "data": 13,
+              "unit": "MW",
+              "modify": true,
+              "is_default": false,
+              "depth": 2
+            }
+          ]
+        }
+      ],
+      "uniqueId": "8c0be0e1-5075-405f-b2b0-d11060b378e1",
+      "lat": 35.583908,
+      "lng": 126.562562,
+      "modifiedAt": "2025-11-11T07:36:25.932Z"
+    },
+    {
+      "label": "154kV-A",
+      "id": 4,
+      "setProperty": true,
+      "property": [
+        {
+          "name": "",
+          "depth": 1,
+          "values": [
+            {
+              "name": "수요용량",
+              "data": 0,
+              "unit": "MW",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "송전설로건설단가",
+              "data": 102,
+              "unit": "백만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "접속공사비단가",
+              "data": 120,
+              "unit": "천원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "여유용량",
+              "data": 0,
+              "unit": "MW",
+              "modify": true,
+              "is_default": false,
+              "depth": 2
+            },
+            {
+              "name": "최대수용용량",
+              "data": 13,
+              "unit": "MW",
+              "modify": true,
+              "is_default": false,
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "name": "송전접속단가_1년사용기존",
+          "depth": 1,
+          "values": [
+            {
+              "name": "일별사용시간",
+              "data": 8,
+              "unit": "hr/day",
+              "modify": true,
+              "is_default": false,
+              "depth": 2
+            },
+            {
+              "name": "기본단가",
+              "data": 667.61,
+              "unit": "원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "사용단가",
+              "data": 1.42,
+              "unit": "원/kWh",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "name": "송전손실단가_1년사용기존",
+          "depth": 1,
+          "values": [
+            {
+              "name": "원전",
+              "data": 0.03,
+              "unit": "원/MWh",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "석탄화력",
+              "data": 0.03,
+              "unit": "원/MWh",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "가스복합",
+              "data": -1.39,
+              "unit": "원/MWh",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "소수력",
+              "data": 0,
+              "unit": "원/MWh",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            }
+          ]
+        }
+      ],
+      "uniqueId": "64b7b1e2-c62c-43df-a2d0-8a4114d25b71",
+      "lat": 35.237738,
+      "lng": 126.898987,
+      "modifiedAt": "2025-11-11T07:36:28.266Z"
+    },
+    {
+      "label": "22.9kV-A",
+      "id": 5,
+      "setProperty": true,
+      "property": [
+        {
+          "name": "",
+          "depth": 1,
+          "values": [
+            {
+              "name": "수요용량",
+              "data": 0,
+              "unit": "MW",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "여유용량",
+              "data": 0,
+              "unit": "MW",
+              "modify": true,
+              "is_default": false,
+              "depth": 2
+            },
+            {
+              "name": "최대수용용량",
+              "data": 13,
+              "unit": "MW",
+              "modify": true,
+              "is_default": false,
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "name": "배전망구축단가",
+          "depth": 1,
+          "values": [
+            {
+              "group": "신축-AC",
+              "name": "배전선로단가",
+              "data": 3800,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-AC",
+              "name": "전주공사단가",
+              "data": 3300,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-AC",
+              "name": "선로토체단가",
+              "data": 2400,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-AC",
+              "name": "변압기단가",
+              "data": 2200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-AC",
+              "name": "차단기단가",
+              "data": 1200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-AC",
+              "name": "토목건설단가",
+              "data": 2500,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-AC",
+              "name": "운용비용단가",
+              "data": 1600,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-AC",
+              "name": "부대비용단가",
+              "data": 1800,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-DC",
+              "name": "배전선로단가",
+              "data": 6200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-DC",
+              "name": "전주공사단가",
+              "data": 4800,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-DC",
+              "name": "선로토체단가",
+              "data": 3600,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-DC",
+              "name": "변압기단가",
+              "data": 3500,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-DC",
+              "name": "차단기단가",
+              "data": 2200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-DC",
+              "name": "토목건설단가",
+              "data": 4000,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-DC",
+              "name": "운용비용단가",
+              "data": 2200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-DC",
+              "name": "부대비용단가",
+              "data": 2800,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-AC",
+              "name": "배전선로단가",
+              "data": 3800,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-AC",
+              "name": "전주공사단가",
+              "data": 0,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-AC",
+              "name": "선로토체단가",
+              "data": 2400,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-AC",
+              "name": "변압기단가",
+              "data": 2200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-AC",
+              "name": "차단기단가",
+              "data": 1200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-AC",
+              "name": "토목건설단가",
+              "data": 0,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-AC",
+              "name": "운용비용단가",
+              "data": 1600,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-AC",
+              "name": "부대비용단가",
+              "data": 1800,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-DC",
+              "name": "배전선로단가",
+              "data": 6200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-DC",
+              "name": "전주공사단가",
+              "data": 0,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-DC",
+              "name": "선로토체단가",
+              "data": 3600,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-DC",
+              "name": "변압기단가",
+              "data": 3500,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-DC",
+              "name": "차단기단가",
+              "data": 2200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-DC",
+              "name": "토목건설단가",
+              "data": 0,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-DC",
+              "name": "운용비용단가",
+              "data": 2200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-DC",
+              "name": "부대비용단가",
+              "data": 2800,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            }
+          ]
+        }
+      ],
+      "uniqueId": "d2e09a04-ecc3-440a-99ed-fb84262437bb",
+      "lat": 35.223603,
+      "lng": 126.843246,
+      "modifiedAt": "2025-11-11T07:36:33.129Z",
+      "expansionType": "신축",
+      "powerType": "DC"
+    },
+    {
+      "label": "수요지역-B",
+      "id": 6,
+      "property": [
+        {
+          "name": "수요지역정보",
+          "depth": 1,
+          "values": [
+            {
+              "name": "주소",
+              "data": "광주 북구 첨단연신로 12",
+              "unit": "-",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "수요용량",
+              "unit": "MW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2,
+              "data": 0.02
+            },
+            {
+              "name": "일별 전력 사용시간",
+              "unit": "hr/day",
+              "modify": true,
+              "is_default": true,
+              "depth": 2,
+              "data": 8
+            }
+          ]
+        }
+      ],
+      "uniqueId": "36ae8cc8-6544-43ab-846f-a84c7435aa98",
+      "lat": 0,
+      "lng": 0,
+      "setProperty": true,
+      "modifiedAt": "2025-11-11T07:39:55.524Z"
+    },
+    {
+      "label": "ESS-B",
+      "id": 7,
+      "setProperty": true,
+      "property": [
+        {
+          "name": "",
+          "depth": 1,
+          "values": [
+            {
+              "name": "설치용량",
+              "data": 0.02,
+              "unit": "MW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "계통 유연계수",
+              "data": 0,
+              "unit": "(0.00~0.10)",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "여유용량",
+              "data": 0.02,
+              "unit": "MW",
+              "modify": true,
+              "is_default": false,
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "name": "ESS(에너지저장장치)구축단가",
+          "depth": 1,
+          "values": [
+            {
+              "group": "신축",
+              "name": "설비비용",
+              "data": 1200,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축",
+              "name": "유지비용",
+              "data": 40,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용",
+              "data": null,
+              "unit": "",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용_1MW이하",
+              "data": 50,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용_1MW~50MW",
+              "data": 100,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용_50MW이상",
+              "data": 150,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용_총비용",
+              "data": 5,
+              "unit": "억원/고정비",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "인허가비용",
+              "data": null,
+              "unit": "",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축",
+              "name": "인허가비용_총비용",
+              "data": 30,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "설비비용",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "기존",
+              "name": "유지비용",
+              "data": 40,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용",
+              "data": null,
+              "unit": "",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용_1MW이하",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용_1MW~50MW",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용_50MW이상",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용_총비용",
+              "data": 0,
+              "unit": "억원/고정비",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "인허가비용",
+              "data": null,
+              "unit": "",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "기존",
+              "name": "인허가비용_총비용",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            }
+          ]
+        }
+      ],
+      "uniqueId": "cf01d0f2-416d-4a7d-9676-21fd7a5f376f",
+      "lat": 35.202564,
+      "lng": 126.862995,
+      "modifiedAt": "2025-11-11T07:41:58.220Z",
+      "expansionType": "신축"
+    }
+  ],
+  [
+    {
+      "label": "원전-A",
+      "id": 1,
+      "setProperty": true,
+      "uniqueId": "052e4983-d239-4ba1-8b52-55ad72f5dee4",
+      "lat": 35.583908,
+      "lng": 126.562562
+    },
+    {
+      "label": "345kV-A",
+      "id": 3,
+      "setProperty": true,
+      "property": [
+        {
+          "name": "",
+          "depth": 1,
+          "values": [
+            {
+              "name": "수요용량",
+              "data": 0,
+              "unit": "MW",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "송전설로 건설단가",
+              "data": 2060,
+              "unit": "백만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "접속 공사비 단가",
+              "data": 200,
+              "unit": "천원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "여유 용량",
+              "data": 0,
+              "unit": "MW",
+              "modify": true,
+              "is_default": false,
+              "depth": 2
+            },
+            {
+              "name": "최대 수용 용량",
+              "data": 13,
+              "unit": "MW",
+              "modify": true,
+              "is_default": false,
+              "depth": 2
+            }
+          ]
+        }
+      ],
+      "uniqueId": "8c0be0e1-5075-405f-b2b0-d11060b378e1",
+      "lat": 35.583908,
+      "lng": 126.562562,
+      "modifiedAt": "2025-11-11T07:36:25.932Z"
+    },
+    {
+      "label": "154kV-A",
+      "id": 4,
+      "setProperty": true,
+      "property": [
+        {
+          "name": "",
+          "depth": 1,
+          "values": [
+            {
+              "name": "수요용량",
+              "data": 0,
+              "unit": "MW",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "송전설로건설단가",
+              "data": 102,
+              "unit": "백만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "접속공사비단가",
+              "data": 120,
+              "unit": "천원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "여유용량",
+              "data": 0,
+              "unit": "MW",
+              "modify": true,
+              "is_default": false,
+              "depth": 2
+            },
+            {
+              "name": "최대수용용량",
+              "data": 13,
+              "unit": "MW",
+              "modify": true,
+              "is_default": false,
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "name": "송전접속단가_1년사용기존",
+          "depth": 1,
+          "values": [
+            {
+              "name": "일별사용시간",
+              "data": 8,
+              "unit": "hr/day",
+              "modify": true,
+              "is_default": false,
+              "depth": 2
+            },
+            {
+              "name": "기본단가",
+              "data": 667.61,
+              "unit": "원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "사용단가",
+              "data": 1.42,
+              "unit": "원/kWh",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "name": "송전손실단가_1년사용기존",
+          "depth": 1,
+          "values": [
+            {
+              "name": "원전",
+              "data": 0.03,
+              "unit": "원/MWh",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "석탄화력",
+              "data": 0.03,
+              "unit": "원/MWh",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "가스복합",
+              "data": -1.39,
+              "unit": "원/MWh",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "소수력",
+              "data": 0,
+              "unit": "원/MWh",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            }
+          ]
+        }
+      ],
+      "uniqueId": "64b7b1e2-c62c-43df-a2d0-8a4114d25b71",
+      "lat": 35.237738,
+      "lng": 126.898987,
+      "modifiedAt": "2025-11-11T07:36:28.266Z"
+    },
+    {
+      "label": "22.9kV-A",
+      "id": 5,
+      "setProperty": true,
+      "property": [
+        {
+          "name": "",
+          "depth": 1,
+          "values": [
+            {
+              "name": "수요용량",
+              "data": 0,
+              "unit": "MW",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "여유용량",
+              "data": 0,
+              "unit": "MW",
+              "modify": true,
+              "is_default": false,
+              "depth": 2
+            },
+            {
+              "name": "최대수용용량",
+              "data": 13,
+              "unit": "MW",
+              "modify": true,
+              "is_default": false,
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "name": "배전망구축단가",
+          "depth": 1,
+          "values": [
+            {
+              "group": "신축-AC",
+              "name": "배전선로단가",
+              "data": 3800,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-AC",
+              "name": "전주공사단가",
+              "data": 3300,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-AC",
+              "name": "선로토체단가",
+              "data": 2400,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-AC",
+              "name": "변압기단가",
+              "data": 2200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-AC",
+              "name": "차단기단가",
+              "data": 1200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-AC",
+              "name": "토목건설단가",
+              "data": 2500,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-AC",
+              "name": "운용비용단가",
+              "data": 1600,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-AC",
+              "name": "부대비용단가",
+              "data": 1800,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-DC",
+              "name": "배전선로단가",
+              "data": 6200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-DC",
+              "name": "전주공사단가",
+              "data": 4800,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-DC",
+              "name": "선로토체단가",
+              "data": 3600,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-DC",
+              "name": "변압기단가",
+              "data": 3500,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-DC",
+              "name": "차단기단가",
+              "data": 2200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-DC",
+              "name": "토목건설단가",
+              "data": 4000,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-DC",
+              "name": "운용비용단가",
+              "data": 2200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-DC",
+              "name": "부대비용단가",
+              "data": 2800,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-AC",
+              "name": "배전선로단가",
+              "data": 3800,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-AC",
+              "name": "전주공사단가",
+              "data": 0,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-AC",
+              "name": "선로토체단가",
+              "data": 2400,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-AC",
+              "name": "변압기단가",
+              "data": 2200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-AC",
+              "name": "차단기단가",
+              "data": 1200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-AC",
+              "name": "토목건설단가",
+              "data": 0,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-AC",
+              "name": "운용비용단가",
+              "data": 1600,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-AC",
+              "name": "부대비용단가",
+              "data": 1800,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-DC",
+              "name": "배전선로단가",
+              "data": 6200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-DC",
+              "name": "전주공사단가",
+              "data": 0,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-DC",
+              "name": "선로토체단가",
+              "data": 3600,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-DC",
+              "name": "변압기단가",
+              "data": 3500,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-DC",
+              "name": "차단기단가",
+              "data": 2200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-DC",
+              "name": "토목건설단가",
+              "data": 0,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-DC",
+              "name": "운용비용단가",
+              "data": 2200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-DC",
+              "name": "부대비용단가",
+              "data": 2800,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            }
+          ]
+        }
+      ],
+      "uniqueId": "d2e09a04-ecc3-440a-99ed-fb84262437bb",
+      "lat": 35.223603,
+      "lng": 126.843246,
+      "modifiedAt": "2025-11-11T07:36:33.129Z",
+      "expansionType": "신축",
+      "powerType": "DC"
+    },
+    {
+      "label": "수요지역-C",
+      "id": 6,
+      "property": [
+        {
+          "name": "수요지역정보",
+          "depth": 1,
+          "values": [
+            {
+              "name": "주소",
+              "data": "광주 북구 첨단연신로288번길 26",
+              "unit": "-",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "수요용량",
+              "unit": "MW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2,
+              "data": 0.1915
+            },
+            {
+              "name": "일별 전력 사용시간",
+              "unit": "hr/day",
+              "modify": true,
+              "is_default": true,
+              "depth": 2,
+              "data": 8
+            }
+          ]
+        }
+      ],
+      "uniqueId": "87f12394-9655-4dc0-a6a4-4c54db7480b2",
+      "lat": 0,
+      "lng": 0,
+      "setProperty": true,
+      "modifiedAt": "2025-11-11T07:40:11.653Z"
+    },
+    {
+      "label": "태양광-A",
+      "id": 7,
+      "setProperty": true,
+      "property": [
+        {
+          "name": "",
+          "depth": 1,
+          "values": [
+            {
+              "name": "설치용량",
+              "data": 0.04,
+              "unit": "MW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "계통 유연계수",
+              "data": 0,
+              "unit": "(0.00~0.10)",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "여유용량",
+              "data": 0.04,
+              "unit": "MW",
+              "modify": true,
+              "is_default": false,
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "name": "태양광발전소구축단가",
+          "depth": 1,
+          "values": [
+            {
+              "group": "신축",
+              "name": "건설비용",
+              "data": 1050,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축",
+              "name": "유지비용",
+              "data": 25,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용",
+              "data": null,
+              "unit": "",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용_1MW이하",
+              "data": 50,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용_1MW~10MW",
+              "data": 100,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용_10MW이상",
+              "data": 150,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용_송전선로",
+              "data": 20,
+              "unit": "백만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "인허가비용",
+              "data": null,
+              "unit": "",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축",
+              "name": "인허가비용_10MW이상_단가",
+              "data": 100,
+              "unit": "천원/kW,",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "인허가비용_10MW이상_총비용",
+              "data": 5,
+              "unit": "억원/고정비",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "건설비용",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "기존",
+              "name": "유지비용",
+              "data": 25,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용",
+              "data": null,
+              "unit": "",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용_1MW이하",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용_1MW~10MW",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용_10MW이상",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용_송전선로",
+              "data": 0,
+              "unit": "백만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "인허가비용",
+              "data": null,
+              "unit": "",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "기존",
+              "name": "인허가비용_10MW이상_단가",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "인허가비용_10MW이상_총비용",
+              "data": 0,
+              "unit": "억원/고정비",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            }
+          ]
+        }
+      ],
+      "uniqueId": "faa0c61e-ae5f-443e-a4c4-41bb570c88d2",
+      "lat": 35.203521,
+      "lng": 126.857432,
+      "modifiedAt": "2025-11-11T07:41:07.271Z",
+      "expansionType": "신축"
+    },
+    {
+      "label": "ESS-C",
+      "id": 7,
+      "setProperty": true,
+      "property": [
+        {
+          "name": "",
+          "depth": 1,
+          "values": [
+            {
+              "name": "설치용량",
+              "data": 0.11,
+              "unit": "MW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "계통 유연계수",
+              "data": 0,
+              "unit": "(0.00~0.10)",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "여유용량",
+              "data": 0.11,
+              "unit": "MW",
+              "modify": true,
+              "is_default": false,
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "name": "ESS(에너지저장장치)구축단가",
+          "depth": 1,
+          "values": [
+            {
+              "group": "신축",
+              "name": "설비비용",
+              "data": 1200,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축",
+              "name": "유지비용",
+              "data": 40,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용",
+              "data": null,
+              "unit": "",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용_1MW이하",
+              "data": 50,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용_1MW~50MW",
+              "data": 100,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용_50MW이상",
+              "data": 150,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용_총비용",
+              "data": 5,
+              "unit": "억원/고정비",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "인허가비용",
+              "data": null,
+              "unit": "",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축",
+              "name": "인허가비용_총비용",
+              "data": 30,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "설비비용",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "기존",
+              "name": "유지비용",
+              "data": 40,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용",
+              "data": null,
+              "unit": "",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용_1MW이하",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용_1MW~50MW",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용_50MW이상",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용_총비용",
+              "data": 0,
+              "unit": "억원/고정비",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "인허가비용",
+              "data": null,
+              "unit": "",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "기존",
+              "name": "인허가비용_총비용",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            }
+          ]
+        }
+      ],
+      "uniqueId": "5928a3dc-ab79-4ca9-bad7-da55b54727c3",
+      "lat": 35.203521,
+      "lng": 126.857432,
+      "modifiedAt": "2025-11-11T07:42:05.378Z",
+      "expansionType": "신축"
+    },
+    {
+      "label": "풍력-A",
+      "id": 7,
+      "setProperty": true,
+      "property": [
+        {
+          "name": "",
+          "depth": 1,
+          "values": [
+            {
+              "name": "설치용량",
+              "data": 0.0415,
+              "unit": "MW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "계통 유연계수",
+              "data": 0,
+              "unit": "(0.00~0.10)",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "여유용량",
+              "data": 0.0415,
+              "unit": "MW",
+              "modify": true,
+              "is_default": false,
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "name": "풍력발전소구축단가",
+          "depth": 1,
+          "values": [
+            {
+              "group": "신축",
+              "name": "건설비용",
+              "data": 1700,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축",
+              "name": "유지비용",
+              "data": 70,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용",
+              "data": null,
+              "unit": "",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용_3MW이하",
+              "data": 150,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용_3MW~10MW",
+              "data": 200,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용_10MW이상",
+              "data": 250,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용_송전선로",
+              "data": 30,
+              "unit": "백만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "인허가비용",
+              "data": null,
+              "unit": "",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축",
+              "name": "인허가비용_3MW이상",
+              "data": 100,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "인허가비용_10MW이상",
+              "data": 100,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "인허가비용_총비용",
+              "data": 20,
+              "unit": "억원/고정비",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "건설비용",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "기존",
+              "name": "유지비용",
+              "data": 70,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용",
+              "data": null,
+              "unit": "",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용_3MW이하",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용_3MW~10MW",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용_10MW이상",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용_송전선로",
+              "data": 0,
+              "unit": "백만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "인허가비용",
+              "data": null,
+              "unit": "",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "기존",
+              "name": "인허가비용_3MW이상",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "인허가비용_10MW이상",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "인허가비용_총비용",
+              "data": 0,
+              "unit": "억원/고정비",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            }
+          ]
+        }
+      ],
+      "uniqueId": "646af512-3667-480d-9f4f-b0dda65ae043",
+      "lat": 35.203521,
+      "lng": 126.857432,
+      "modifiedAt": "2025-11-11T07:43:01.995Z",
+      "expansionType": "신축"
+    }
+  ],
+  [
+    {
+      "label": "원전-A",
+      "id": 1,
+      "setProperty": true,
+      "uniqueId": "052e4983-d239-4ba1-8b52-55ad72f5dee4",
+      "lat": 35.583908,
+      "lng": 126.562562
+    },
+    {
+      "label": "345kV-A",
+      "id": 3,
+      "setProperty": true,
+      "property": [
+        {
+          "name": "",
+          "depth": 1,
+          "values": [
+            {
+              "name": "수요용량",
+              "data": 0,
+              "unit": "MW",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "송전설로 건설단가",
+              "data": 2060,
+              "unit": "백만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "접속 공사비 단가",
+              "data": 200,
+              "unit": "천원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "여유 용량",
+              "data": 0,
+              "unit": "MW",
+              "modify": true,
+              "is_default": false,
+              "depth": 2
+            },
+            {
+              "name": "최대 수용 용량",
+              "data": 13,
+              "unit": "MW",
+              "modify": true,
+              "is_default": false,
+              "depth": 2
+            }
+          ]
+        }
+      ],
+      "uniqueId": "8c0be0e1-5075-405f-b2b0-d11060b378e1",
+      "lat": 35.583908,
+      "lng": 126.562562,
+      "modifiedAt": "2025-11-11T07:36:25.932Z"
+    },
+    {
+      "label": "154kV-A",
+      "id": 4,
+      "setProperty": true,
+      "property": [
+        {
+          "name": "",
+          "depth": 1,
+          "values": [
+            {
+              "name": "수요용량",
+              "data": 0,
+              "unit": "MW",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "송전설로건설단가",
+              "data": 102,
+              "unit": "백만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "접속공사비단가",
+              "data": 120,
+              "unit": "천원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "여유용량",
+              "data": 0,
+              "unit": "MW",
+              "modify": true,
+              "is_default": false,
+              "depth": 2
+            },
+            {
+              "name": "최대수용용량",
+              "data": 13,
+              "unit": "MW",
+              "modify": true,
+              "is_default": false,
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "name": "송전접속단가_1년사용기존",
+          "depth": 1,
+          "values": [
+            {
+              "name": "일별사용시간",
+              "data": 8,
+              "unit": "hr/day",
+              "modify": true,
+              "is_default": false,
+              "depth": 2
+            },
+            {
+              "name": "기본단가",
+              "data": 667.61,
+              "unit": "원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "사용단가",
+              "data": 1.42,
+              "unit": "원/kWh",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "name": "송전손실단가_1년사용기존",
+          "depth": 1,
+          "values": [
+            {
+              "name": "원전",
+              "data": 0.03,
+              "unit": "원/MWh",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "석탄화력",
+              "data": 0.03,
+              "unit": "원/MWh",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "가스복합",
+              "data": -1.39,
+              "unit": "원/MWh",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "소수력",
+              "data": 0,
+              "unit": "원/MWh",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            }
+          ]
+        }
+      ],
+      "uniqueId": "64b7b1e2-c62c-43df-a2d0-8a4114d25b71",
+      "lat": 35.237738,
+      "lng": 126.898987,
+      "modifiedAt": "2025-11-11T07:36:28.266Z"
+    },
+    {
+      "label": "22.9kV-A",
+      "id": 5,
+      "setProperty": true,
+      "property": [
+        {
+          "name": "",
+          "depth": 1,
+          "values": [
+            {
+              "name": "수요용량",
+              "data": 0,
+              "unit": "MW",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "여유용량",
+              "data": 0,
+              "unit": "MW",
+              "modify": true,
+              "is_default": false,
+              "depth": 2
+            },
+            {
+              "name": "최대수용용량",
+              "data": 13,
+              "unit": "MW",
+              "modify": true,
+              "is_default": false,
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "name": "배전망구축단가",
+          "depth": 1,
+          "values": [
+            {
+              "group": "신축-AC",
+              "name": "배전선로단가",
+              "data": 3800,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-AC",
+              "name": "전주공사단가",
+              "data": 3300,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-AC",
+              "name": "선로토체단가",
+              "data": 2400,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-AC",
+              "name": "변압기단가",
+              "data": 2200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-AC",
+              "name": "차단기단가",
+              "data": 1200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-AC",
+              "name": "토목건설단가",
+              "data": 2500,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-AC",
+              "name": "운용비용단가",
+              "data": 1600,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-AC",
+              "name": "부대비용단가",
+              "data": 1800,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-DC",
+              "name": "배전선로단가",
+              "data": 6200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-DC",
+              "name": "전주공사단가",
+              "data": 4800,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-DC",
+              "name": "선로토체단가",
+              "data": 3600,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-DC",
+              "name": "변압기단가",
+              "data": 3500,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-DC",
+              "name": "차단기단가",
+              "data": 2200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-DC",
+              "name": "토목건설단가",
+              "data": 4000,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-DC",
+              "name": "운용비용단가",
+              "data": 2200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-DC",
+              "name": "부대비용단가",
+              "data": 2800,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-AC",
+              "name": "배전선로단가",
+              "data": 3800,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-AC",
+              "name": "전주공사단가",
+              "data": 0,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-AC",
+              "name": "선로토체단가",
+              "data": 2400,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-AC",
+              "name": "변압기단가",
+              "data": 2200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-AC",
+              "name": "차단기단가",
+              "data": 1200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-AC",
+              "name": "토목건설단가",
+              "data": 0,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-AC",
+              "name": "운용비용단가",
+              "data": 1600,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-AC",
+              "name": "부대비용단가",
+              "data": 1800,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-DC",
+              "name": "배전선로단가",
+              "data": 6200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-DC",
+              "name": "전주공사단가",
+              "data": 0,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-DC",
+              "name": "선로토체단가",
+              "data": 3600,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-DC",
+              "name": "변압기단가",
+              "data": 3500,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-DC",
+              "name": "차단기단가",
+              "data": 2200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-DC",
+              "name": "토목건설단가",
+              "data": 0,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-DC",
+              "name": "운용비용단가",
+              "data": 2200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-DC",
+              "name": "부대비용단가",
+              "data": 2800,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            }
+          ]
+        }
+      ],
+      "uniqueId": "d2e09a04-ecc3-440a-99ed-fb84262437bb",
+      "lat": 35.223603,
+      "lng": 126.843246,
+      "modifiedAt": "2025-11-11T07:36:33.129Z",
+      "expansionType": "신축",
+      "powerType": "DC"
+    },
+    {
+      "label": "수요지역-D",
+      "id": 6,
+      "property": [
+        {
+          "name": "수요지역정보",
+          "depth": 1,
+          "values": [
+            {
+              "name": "주소",
+              "data": "광주 광산구 수등로258번길 74-2",
+              "unit": "-",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "수요용량",
+              "unit": "MW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2,
+              "data": 0.03
+            },
+            {
+              "name": "일별 전력 사용시간",
+              "unit": "hr/day",
+              "modify": true,
+              "is_default": true,
+              "depth": 2,
+              "data": 8
+            }
+          ]
+        }
+      ],
+      "uniqueId": "132b9255-7425-46a1-8d6e-94ec63b5f504",
+      "lat": 0,
+      "lng": 0,
+      "setProperty": true,
+      "modifiedAt": "2025-11-11T07:40:26.281Z"
+    },
+    {
+      "label": "태양광-B",
+      "id": 7,
+      "setProperty": true,
+      "property": [
+        {
+          "name": "",
+          "depth": 1,
+          "values": [
+            {
+              "name": "설치용량",
+              "data": 0.01,
+              "unit": "MW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "계통 유연계수",
+              "data": 0,
+              "unit": "(0.00~0.10)",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "여유용량",
+              "data": 0.01,
+              "unit": "MW",
+              "modify": true,
+              "is_default": false,
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "name": "태양광발전소구축단가",
+          "depth": 1,
+          "values": [
+            {
+              "group": "신축",
+              "name": "건설비용",
+              "data": 1050,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축",
+              "name": "유지비용",
+              "data": 25,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용",
+              "data": null,
+              "unit": "",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용_1MW이하",
+              "data": 50,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용_1MW~10MW",
+              "data": 100,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용_10MW이상",
+              "data": 150,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용_송전선로",
+              "data": 20,
+              "unit": "백만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "인허가비용",
+              "data": null,
+              "unit": "",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축",
+              "name": "인허가비용_10MW이상_단가",
+              "data": 100,
+              "unit": "천원/kW,",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "인허가비용_10MW이상_총비용",
+              "data": 5,
+              "unit": "억원/고정비",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "건설비용",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "기존",
+              "name": "유지비용",
+              "data": 25,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용",
+              "data": null,
+              "unit": "",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용_1MW이하",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용_1MW~10MW",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용_10MW이상",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용_송전선로",
+              "data": 0,
+              "unit": "백만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "인허가비용",
+              "data": null,
+              "unit": "",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "기존",
+              "name": "인허가비용_10MW이상_단가",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "인허가비용_10MW이상_총비용",
+              "data": 0,
+              "unit": "억원/고정비",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            }
+          ]
+        }
+      ],
+      "uniqueId": "5b89dd67-2638-4781-9622-a5dbf34ea0c1",
+      "lat": 35.194891,
+      "lng": 126.866465,
+      "modifiedAt": "2025-11-11T07:41:11.905Z",
+      "expansionType": "신축"
+    },
+    {
+      "label": "ESS-D",
+      "id": 7,
+      "setProperty": true,
+      "property": [
+        {
+          "name": "",
+          "depth": 1,
+          "values": [
+            {
+              "name": "설치용량",
+              "data": 0.02,
+              "unit": "MW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "계통 유연계수",
+              "data": 0,
+              "unit": "(0.00~0.10)",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "여유용량",
+              "data": 0.02,
+              "unit": "MW",
+              "modify": true,
+              "is_default": false,
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "name": "ESS(에너지저장장치)구축단가",
+          "depth": 1,
+          "values": [
+            {
+              "group": "신축",
+              "name": "설비비용",
+              "data": 1200,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축",
+              "name": "유지비용",
+              "data": 40,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용",
+              "data": null,
+              "unit": "",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용_1MW이하",
+              "data": 50,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용_1MW~50MW",
+              "data": 100,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용_50MW이상",
+              "data": 150,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용_총비용",
+              "data": 5,
+              "unit": "억원/고정비",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "인허가비용",
+              "data": null,
+              "unit": "",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축",
+              "name": "인허가비용_총비용",
+              "data": 30,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "설비비용",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "기존",
+              "name": "유지비용",
+              "data": 40,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용",
+              "data": null,
+              "unit": "",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용_1MW이하",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용_1MW~50MW",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용_50MW이상",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용_총비용",
+              "data": 0,
+              "unit": "억원/고정비",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "인허가비용",
+              "data": null,
+              "unit": "",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "기존",
+              "name": "인허가비용_총비용",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            }
+          ]
+        }
+      ],
+      "uniqueId": "56651bc5-b136-4b6b-8247-55077015508e",
+      "lat": 35.194891,
+      "lng": 126.866465,
+      "modifiedAt": "2025-11-11T07:42:11.276Z",
+      "expansionType": "신축"
+    },
+    {
+      "label": "풍력-B",
+      "id": 7,
+      "setProperty": true,
+      "property": [
+        {
+          "name": "",
+          "depth": 1,
+          "values": [
+            {
+              "name": "설치용량",
+              "data": 0.0622,
+              "unit": "MW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "계통 유연계수",
+              "data": 0,
+              "unit": "(0.00~0.10)",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "여유용량",
+              "data": 0.0622,
+              "unit": "MW",
+              "modify": true,
+              "is_default": false,
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "name": "풍력발전소구축단가",
+          "depth": 1,
+          "values": [
+            {
+              "group": "신축",
+              "name": "건설비용",
+              "data": 1700,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축",
+              "name": "유지비용",
+              "data": 70,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용",
+              "data": null,
+              "unit": "",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용_3MW이하",
+              "data": 150,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용_3MW~10MW",
+              "data": 200,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용_10MW이상",
+              "data": 250,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용_송전선로",
+              "data": 30,
+              "unit": "백만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "인허가비용",
+              "data": null,
+              "unit": "",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축",
+              "name": "인허가비용_3MW이상",
+              "data": 100,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "인허가비용_10MW이상",
+              "data": 100,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "인허가비용_총비용",
+              "data": 20,
+              "unit": "억원/고정비",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "건설비용",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "기존",
+              "name": "유지비용",
+              "data": 70,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용",
+              "data": null,
+              "unit": "",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용_3MW이하",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용_3MW~10MW",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용_10MW이상",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용_송전선로",
+              "data": 0,
+              "unit": "백만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "인허가비용",
+              "data": null,
+              "unit": "",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "기존",
+              "name": "인허가비용_3MW이상",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "인허가비용_10MW이상",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "인허가비용_총비용",
+              "data": 0,
+              "unit": "억원/고정비",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            }
+          ]
+        }
+      ],
+      "uniqueId": "f7fa651e-ac88-40d8-810d-ebc77d471cc8",
+      "lat": 35.194891,
+      "lng": 126.866465,
+      "modifiedAt": "2025-11-11T07:43:12.142Z",
+      "expansionType": "신축"
+    }
+  ],
+  [
+    {
+      "label": "원전-A",
+      "id": 1,
+      "setProperty": true,
+      "uniqueId": "052e4983-d239-4ba1-8b52-55ad72f5dee4",
+      "lat": 35.583908,
+      "lng": 126.562562
+    },
+    {
+      "label": "345kV-A",
+      "id": 3,
+      "setProperty": true,
+      "property": [
+        {
+          "name": "",
+          "depth": 1,
+          "values": [
+            {
+              "name": "수요용량",
+              "data": 0,
+              "unit": "MW",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "송전설로 건설단가",
+              "data": 2060,
+              "unit": "백만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "접속 공사비 단가",
+              "data": 200,
+              "unit": "천원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "여유 용량",
+              "data": 0,
+              "unit": "MW",
+              "modify": true,
+              "is_default": false,
+              "depth": 2
+            },
+            {
+              "name": "최대 수용 용량",
+              "data": 13,
+              "unit": "MW",
+              "modify": true,
+              "is_default": false,
+              "depth": 2
+            }
+          ]
+        }
+      ],
+      "uniqueId": "8c0be0e1-5075-405f-b2b0-d11060b378e1",
+      "lat": 35.583908,
+      "lng": 126.562562,
+      "modifiedAt": "2025-11-11T07:36:25.932Z"
+    },
+    {
+      "label": "154kV-A",
+      "id": 4,
+      "setProperty": true,
+      "property": [
+        {
+          "name": "",
+          "depth": 1,
+          "values": [
+            {
+              "name": "수요용량",
+              "data": 0,
+              "unit": "MW",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "송전설로건설단가",
+              "data": 102,
+              "unit": "백만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "접속공사비단가",
+              "data": 120,
+              "unit": "천원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "여유용량",
+              "data": 0,
+              "unit": "MW",
+              "modify": true,
+              "is_default": false,
+              "depth": 2
+            },
+            {
+              "name": "최대수용용량",
+              "data": 13,
+              "unit": "MW",
+              "modify": true,
+              "is_default": false,
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "name": "송전접속단가_1년사용기존",
+          "depth": 1,
+          "values": [
+            {
+              "name": "일별사용시간",
+              "data": 8,
+              "unit": "hr/day",
+              "modify": true,
+              "is_default": false,
+              "depth": 2
+            },
+            {
+              "name": "기본단가",
+              "data": 667.61,
+              "unit": "원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "사용단가",
+              "data": 1.42,
+              "unit": "원/kWh",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "name": "송전손실단가_1년사용기존",
+          "depth": 1,
+          "values": [
+            {
+              "name": "원전",
+              "data": 0.03,
+              "unit": "원/MWh",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "석탄화력",
+              "data": 0.03,
+              "unit": "원/MWh",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "가스복합",
+              "data": -1.39,
+              "unit": "원/MWh",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "소수력",
+              "data": 0,
+              "unit": "원/MWh",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            }
+          ]
+        }
+      ],
+      "uniqueId": "64b7b1e2-c62c-43df-a2d0-8a4114d25b71",
+      "lat": 35.237738,
+      "lng": 126.898987,
+      "modifiedAt": "2025-11-11T07:36:28.266Z"
+    },
+    {
+      "label": "22.9kV-A",
+      "id": 5,
+      "setProperty": true,
+      "property": [
+        {
+          "name": "",
+          "depth": 1,
+          "values": [
+            {
+              "name": "수요용량",
+              "data": 0,
+              "unit": "MW",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "여유용량",
+              "data": 0,
+              "unit": "MW",
+              "modify": true,
+              "is_default": false,
+              "depth": 2
+            },
+            {
+              "name": "최대수용용량",
+              "data": 13,
+              "unit": "MW",
+              "modify": true,
+              "is_default": false,
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "name": "배전망구축단가",
+          "depth": 1,
+          "values": [
+            {
+              "group": "신축-AC",
+              "name": "배전선로단가",
+              "data": 3800,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-AC",
+              "name": "전주공사단가",
+              "data": 3300,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-AC",
+              "name": "선로토체단가",
+              "data": 2400,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-AC",
+              "name": "변압기단가",
+              "data": 2200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-AC",
+              "name": "차단기단가",
+              "data": 1200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-AC",
+              "name": "토목건설단가",
+              "data": 2500,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-AC",
+              "name": "운용비용단가",
+              "data": 1600,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-AC",
+              "name": "부대비용단가",
+              "data": 1800,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-DC",
+              "name": "배전선로단가",
+              "data": 6200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-DC",
+              "name": "전주공사단가",
+              "data": 4800,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-DC",
+              "name": "선로토체단가",
+              "data": 3600,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-DC",
+              "name": "변압기단가",
+              "data": 3500,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-DC",
+              "name": "차단기단가",
+              "data": 2200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-DC",
+              "name": "토목건설단가",
+              "data": 4000,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-DC",
+              "name": "운용비용단가",
+              "data": 2200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-DC",
+              "name": "부대비용단가",
+              "data": 2800,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-AC",
+              "name": "배전선로단가",
+              "data": 3800,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-AC",
+              "name": "전주공사단가",
+              "data": 0,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-AC",
+              "name": "선로토체단가",
+              "data": 2400,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-AC",
+              "name": "변압기단가",
+              "data": 2200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-AC",
+              "name": "차단기단가",
+              "data": 1200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-AC",
+              "name": "토목건설단가",
+              "data": 0,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-AC",
+              "name": "운용비용단가",
+              "data": 1600,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-AC",
+              "name": "부대비용단가",
+              "data": 1800,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-DC",
+              "name": "배전선로단가",
+              "data": 6200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-DC",
+              "name": "전주공사단가",
+              "data": 0,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-DC",
+              "name": "선로토체단가",
+              "data": 3600,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-DC",
+              "name": "변압기단가",
+              "data": 3500,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-DC",
+              "name": "차단기단가",
+              "data": 2200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-DC",
+              "name": "토목건설단가",
+              "data": 0,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-DC",
+              "name": "운용비용단가",
+              "data": 2200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-DC",
+              "name": "부대비용단가",
+              "data": 2800,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            }
+          ]
+        }
+      ],
+      "uniqueId": "d2e09a04-ecc3-440a-99ed-fb84262437bb",
+      "lat": 35.223603,
+      "lng": 126.843246,
+      "modifiedAt": "2025-11-11T07:36:33.129Z",
+      "expansionType": "신축",
+      "powerType": "DC"
+    },
+    {
+      "label": "수요지역-E",
+      "id": 6,
+      "property": [
+        {
+          "name": "수요지역정보",
+          "depth": 1,
+          "values": [
+            {
+              "name": "주소",
+              "data": "광주 북구 동림동 512-4",
+              "unit": "-",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "수요용량",
+              "unit": "MW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2,
+              "data": 0.04
+            },
+            {
+              "name": "일별 전력 사용시간",
+              "unit": "hr/day",
+              "modify": true,
+              "is_default": true,
+              "depth": 2,
+              "data": 8
+            }
+          ]
+        }
+      ],
+      "uniqueId": "490edcb2-cd77-4c21-900e-8cedc6ec0ce2",
+      "lat": 0,
+      "lng": 0,
+      "setProperty": true,
+      "modifiedAt": "2025-11-11T07:40:32.388Z"
+    },
+    {
+      "label": "태양광-C",
+      "id": 7,
+      "setProperty": true,
+      "property": [
+        {
+          "name": "",
+          "depth": 1,
+          "values": [
+            {
+              "name": "설치용량",
+              "data": 0.01,
+              "unit": "MW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "계통 유연계수",
+              "data": 0,
+              "unit": "(0.00~0.10)",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "여유용량",
+              "data": 0.01,
+              "unit": "MW",
+              "modify": true,
+              "is_default": false,
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "name": "태양광발전소구축단가",
+          "depth": 1,
+          "values": [
+            {
+              "group": "신축",
+              "name": "건설비용",
+              "data": 1050,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축",
+              "name": "유지비용",
+              "data": 25,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용",
+              "data": null,
+              "unit": "",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용_1MW이하",
+              "data": 50,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용_1MW~10MW",
+              "data": 100,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용_10MW이상",
+              "data": 150,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용_송전선로",
+              "data": 20,
+              "unit": "백만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "인허가비용",
+              "data": null,
+              "unit": "",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축",
+              "name": "인허가비용_10MW이상_단가",
+              "data": 100,
+              "unit": "천원/kW,",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "인허가비용_10MW이상_총비용",
+              "data": 5,
+              "unit": "억원/고정비",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "건설비용",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "기존",
+              "name": "유지비용",
+              "data": 25,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용",
+              "data": null,
+              "unit": "",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용_1MW이하",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용_1MW~10MW",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용_10MW이상",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용_송전선로",
+              "data": 0,
+              "unit": "백만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "인허가비용",
+              "data": null,
+              "unit": "",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "기존",
+              "name": "인허가비용_10MW이상_단가",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "인허가비용_10MW이상_총비용",
+              "data": 0,
+              "unit": "억원/고정비",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            }
+          ]
+        }
+      ],
+      "uniqueId": "1a0c7b57-1b74-4c8e-b14a-61317c867d5b",
+      "lat": 35.195639,
+      "lng": 126.866477,
+      "modifiedAt": "2025-11-11T07:41:15.890Z",
+      "expansionType": "신축"
+    },
+    {
+      "label": "ESS-E",
+      "id": 7,
+      "setProperty": true,
+      "property": [
+        {
+          "name": "",
+          "depth": 1,
+          "values": [
+            {
+              "name": "설치용량",
+              "data": 0.03,
+              "unit": "MW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "계통 유연계수",
+              "data": 0,
+              "unit": "(0.00~0.10)",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "여유용량",
+              "data": 0.03,
+              "unit": "MW",
+              "modify": true,
+              "is_default": false,
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "name": "ESS(에너지저장장치)구축단가",
+          "depth": 1,
+          "values": [
+            {
+              "group": "신축",
+              "name": "설비비용",
+              "data": 1200,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축",
+              "name": "유지비용",
+              "data": 40,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용",
+              "data": null,
+              "unit": "",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용_1MW이하",
+              "data": 50,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용_1MW~50MW",
+              "data": 100,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용_50MW이상",
+              "data": 150,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용_총비용",
+              "data": 5,
+              "unit": "억원/고정비",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "인허가비용",
+              "data": null,
+              "unit": "",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축",
+              "name": "인허가비용_총비용",
+              "data": 30,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "설비비용",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "기존",
+              "name": "유지비용",
+              "data": 40,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용",
+              "data": null,
+              "unit": "",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용_1MW이하",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용_1MW~50MW",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용_50MW이상",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용_총비용",
+              "data": 0,
+              "unit": "억원/고정비",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "인허가비용",
+              "data": null,
+              "unit": "",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "기존",
+              "name": "인허가비용_총비용",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            }
+          ]
+        }
+      ],
+      "uniqueId": "0e89eb4d-e85d-422b-9326-30797399f81d",
+      "lat": 35.195639,
+      "lng": 126.866477,
+      "modifiedAt": "2025-11-11T07:42:16.938Z",
+      "expansionType": "신축"
+    }
+  ],
+  [
+    {
+      "label": "원전-A",
+      "id": 1,
+      "setProperty": true,
+      "uniqueId": "052e4983-d239-4ba1-8b52-55ad72f5dee4",
+      "lat": 35.583908,
+      "lng": 126.562562
+    },
+    {
+      "label": "345kV-A",
+      "id": 3,
+      "setProperty": true,
+      "property": [
+        {
+          "name": "",
+          "depth": 1,
+          "values": [
+            {
+              "name": "수요용량",
+              "data": 0,
+              "unit": "MW",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "송전설로 건설단가",
+              "data": 2060,
+              "unit": "백만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "접속 공사비 단가",
+              "data": 200,
+              "unit": "천원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "여유 용량",
+              "data": 0,
+              "unit": "MW",
+              "modify": true,
+              "is_default": false,
+              "depth": 2
+            },
+            {
+              "name": "최대 수용 용량",
+              "data": 13,
+              "unit": "MW",
+              "modify": true,
+              "is_default": false,
+              "depth": 2
+            }
+          ]
+        }
+      ],
+      "uniqueId": "8c0be0e1-5075-405f-b2b0-d11060b378e1",
+      "lat": 35.583908,
+      "lng": 126.562562,
+      "modifiedAt": "2025-11-11T07:36:25.932Z"
+    },
+    {
+      "label": "154kV-A",
+      "id": 4,
+      "setProperty": true,
+      "property": [
+        {
+          "name": "",
+          "depth": 1,
+          "values": [
+            {
+              "name": "수요용량",
+              "data": 0,
+              "unit": "MW",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "송전설로건설단가",
+              "data": 102,
+              "unit": "백만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "접속공사비단가",
+              "data": 120,
+              "unit": "천원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "여유용량",
+              "data": 0,
+              "unit": "MW",
+              "modify": true,
+              "is_default": false,
+              "depth": 2
+            },
+            {
+              "name": "최대수용용량",
+              "data": 13,
+              "unit": "MW",
+              "modify": true,
+              "is_default": false,
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "name": "송전접속단가_1년사용기존",
+          "depth": 1,
+          "values": [
+            {
+              "name": "일별사용시간",
+              "data": 8,
+              "unit": "hr/day",
+              "modify": true,
+              "is_default": false,
+              "depth": 2
+            },
+            {
+              "name": "기본단가",
+              "data": 667.61,
+              "unit": "원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "사용단가",
+              "data": 1.42,
+              "unit": "원/kWh",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "name": "송전손실단가_1년사용기존",
+          "depth": 1,
+          "values": [
+            {
+              "name": "원전",
+              "data": 0.03,
+              "unit": "원/MWh",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "석탄화력",
+              "data": 0.03,
+              "unit": "원/MWh",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "가스복합",
+              "data": -1.39,
+              "unit": "원/MWh",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "소수력",
+              "data": 0,
+              "unit": "원/MWh",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            }
+          ]
+        }
+      ],
+      "uniqueId": "64b7b1e2-c62c-43df-a2d0-8a4114d25b71",
+      "lat": 35.237738,
+      "lng": 126.898987,
+      "modifiedAt": "2025-11-11T07:36:28.266Z"
+    },
+    {
+      "label": "22.9kV-A",
+      "id": 5,
+      "setProperty": true,
+      "property": [
+        {
+          "name": "",
+          "depth": 1,
+          "values": [
+            {
+              "name": "수요용량",
+              "data": 0,
+              "unit": "MW",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "여유용량",
+              "data": 0,
+              "unit": "MW",
+              "modify": true,
+              "is_default": false,
+              "depth": 2
+            },
+            {
+              "name": "최대수용용량",
+              "data": 13,
+              "unit": "MW",
+              "modify": true,
+              "is_default": false,
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "name": "배전망구축단가",
+          "depth": 1,
+          "values": [
+            {
+              "group": "신축-AC",
+              "name": "배전선로단가",
+              "data": 3800,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-AC",
+              "name": "전주공사단가",
+              "data": 3300,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-AC",
+              "name": "선로토체단가",
+              "data": 2400,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-AC",
+              "name": "변압기단가",
+              "data": 2200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-AC",
+              "name": "차단기단가",
+              "data": 1200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-AC",
+              "name": "토목건설단가",
+              "data": 2500,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-AC",
+              "name": "운용비용단가",
+              "data": 1600,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-AC",
+              "name": "부대비용단가",
+              "data": 1800,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-DC",
+              "name": "배전선로단가",
+              "data": 6200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-DC",
+              "name": "전주공사단가",
+              "data": 4800,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-DC",
+              "name": "선로토체단가",
+              "data": 3600,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-DC",
+              "name": "변압기단가",
+              "data": 3500,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-DC",
+              "name": "차단기단가",
+              "data": 2200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-DC",
+              "name": "토목건설단가",
+              "data": 4000,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-DC",
+              "name": "운용비용단가",
+              "data": 2200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축-DC",
+              "name": "부대비용단가",
+              "data": 2800,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-AC",
+              "name": "배전선로단가",
+              "data": 3800,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-AC",
+              "name": "전주공사단가",
+              "data": 0,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-AC",
+              "name": "선로토체단가",
+              "data": 2400,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-AC",
+              "name": "변압기단가",
+              "data": 2200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-AC",
+              "name": "차단기단가",
+              "data": 1200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-AC",
+              "name": "토목건설단가",
+              "data": 0,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-AC",
+              "name": "운용비용단가",
+              "data": 1600,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-AC",
+              "name": "부대비용단가",
+              "data": 1800,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-DC",
+              "name": "배전선로단가",
+              "data": 6200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-DC",
+              "name": "전주공사단가",
+              "data": 0,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-DC",
+              "name": "선로토체단가",
+              "data": 3600,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-DC",
+              "name": "변압기단가",
+              "data": 3500,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-DC",
+              "name": "차단기단가",
+              "data": 2200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-DC",
+              "name": "토목건설단가",
+              "data": 0,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-DC",
+              "name": "운용비용단가",
+              "data": 2200,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "증축-DC",
+              "name": "부대비용단가",
+              "data": 2800,
+              "unit": "만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            }
+          ]
+        }
+      ],
+      "uniqueId": "d2e09a04-ecc3-440a-99ed-fb84262437bb",
+      "lat": 35.223603,
+      "lng": 126.843246,
+      "modifiedAt": "2025-11-11T07:36:33.129Z",
+      "expansionType": "신축",
+      "powerType": "DC"
+    },
+    {
+      "label": "수요지역-F",
+      "id": 6,
+      "property": [
+        {
+          "name": "수요지역정보",
+          "depth": 1,
+          "values": [
+            {
+              "name": "주소",
+              "data": "광주 북구 추암로 69",
+              "unit": "-",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "수요용량",
+              "unit": "MW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2,
+              "data": 0.2206
+            },
+            {
+              "name": "일별 전력 사용시간",
+              "unit": "hr/day",
+              "modify": true,
+              "is_default": true,
+              "depth": 2,
+              "data": 8
+            }
+          ]
+        }
+      ],
+      "uniqueId": "301592e6-8e22-4a5e-a6ca-26c0eca3578a",
+      "lat": 0,
+      "lng": 0,
+      "setProperty": true,
+      "modifiedAt": "2025-11-11T07:40:38.723Z"
+    },
+    {
+      "label": "태양광-D",
+      "id": 7,
+      "setProperty": true,
+      "property": [
+        {
+          "name": "",
+          "depth": 1,
+          "values": [
+            {
+              "name": "설치용량",
+              "data": 0.17,
+              "unit": "MW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "계통 유연계수",
+              "data": 0,
+              "unit": "(0.00~0.10)",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "여유용량",
+              "data": 0.17,
+              "unit": "MW",
+              "modify": true,
+              "is_default": false,
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "name": "태양광발전소구축단가",
+          "depth": 1,
+          "values": [
+            {
+              "group": "신축",
+              "name": "건설비용",
+              "data": 1050,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축",
+              "name": "유지비용",
+              "data": 25,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용",
+              "data": null,
+              "unit": "",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용_1MW이하",
+              "data": 50,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용_1MW~10MW",
+              "data": 100,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용_10MW이상",
+              "data": 150,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용_송전선로",
+              "data": 20,
+              "unit": "백만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "인허가비용",
+              "data": null,
+              "unit": "",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축",
+              "name": "인허가비용_10MW이상_단가",
+              "data": 100,
+              "unit": "천원/kW,",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "인허가비용_10MW이상_총비용",
+              "data": 5,
+              "unit": "억원/고정비",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "건설비용",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "기존",
+              "name": "유지비용",
+              "data": 25,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용",
+              "data": null,
+              "unit": "",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용_1MW이하",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용_1MW~10MW",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용_10MW이상",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용_송전선로",
+              "data": 0,
+              "unit": "백만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "인허가비용",
+              "data": null,
+              "unit": "",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "기존",
+              "name": "인허가비용_10MW이상_단가",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "인허가비용_10MW이상_총비용",
+              "data": 0,
+              "unit": "억원/고정비",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            }
+          ]
+        }
+      ],
+      "uniqueId": "7c15c943-f5f8-423a-846e-27392ff133ea",
+      "lat": 35.223258,
+      "lng": 126.860399,
+      "modifiedAt": "2025-11-11T07:41:20.117Z",
+      "expansionType": "신축"
+    },
+    {
+      "label": "ESS-F",
+      "id": 7,
+      "setProperty": true,
+      "property": [
+        {
+          "name": "",
+          "depth": 1,
+          "values": [
+            {
+              "name": "설치용량",
+              "data": 0.05,
+              "unit": "MW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "계통 유연계수",
+              "data": 0,
+              "unit": "(0.00~0.10)",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "여유용량",
+              "data": 0.05,
+              "unit": "MW",
+              "modify": true,
+              "is_default": false,
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "name": "ESS(에너지저장장치)구축단가",
+          "depth": 1,
+          "values": [
+            {
+              "group": "신축",
+              "name": "설비비용",
+              "data": 1200,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축",
+              "name": "유지비용",
+              "data": 40,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용",
+              "data": null,
+              "unit": "",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용_1MW이하",
+              "data": 50,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용_1MW~50MW",
+              "data": 100,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용_50MW이상",
+              "data": 150,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용_총비용",
+              "data": 5,
+              "unit": "억원/고정비",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "인허가비용",
+              "data": null,
+              "unit": "",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축",
+              "name": "인허가비용_총비용",
+              "data": 30,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "설비비용",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "기존",
+              "name": "유지비용",
+              "data": 40,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용",
+              "data": null,
+              "unit": "",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용_1MW이하",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용_1MW~50MW",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용_50MW이상",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용_총비용",
+              "data": 0,
+              "unit": "억원/고정비",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "인허가비용",
+              "data": null,
+              "unit": "",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "기존",
+              "name": "인허가비용_총비용",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            }
+          ]
+        }
+      ],
+      "uniqueId": "3f319515-98b0-4b17-8616-77eabdd7099a",
+      "lat": 35.223258,
+      "lng": 126.860399,
+      "modifiedAt": "2025-11-11T07:42:32.982Z",
+      "expansionType": "신축"
+    },
+    {
+      "label": "풍력-C",
+      "id": 7,
+      "setProperty": true,
+      "property": [
+        {
+          "name": "",
+          "depth": 1,
+          "values": [
+            {
+              "name": "설치용량",
+              "data": 0.0006,
+              "unit": "MW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "계통 유연계수",
+              "data": 0,
+              "unit": "(0.00~0.10)",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "name": "여유용량",
+              "data": 0.0006,
+              "unit": "MW",
+              "modify": true,
+              "is_default": false,
+              "depth": 2
+            }
+          ]
+        },
+        {
+          "name": "풍력발전소구축단가",
+          "depth": 1,
+          "values": [
+            {
+              "group": "신축",
+              "name": "건설비용",
+              "data": 1700,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축",
+              "name": "유지비용",
+              "data": 70,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용",
+              "data": null,
+              "unit": "",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용_3MW이하",
+              "data": 150,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용_3MW~10MW",
+              "data": 200,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용_10MW이상",
+              "data": 250,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "계통연계비용_송전선로",
+              "data": 30,
+              "unit": "백만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "인허가비용",
+              "data": null,
+              "unit": "",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "신축",
+              "name": "인허가비용_3MW이상",
+              "data": 100,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "인허가비용_10MW이상",
+              "data": 100,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "신축",
+              "name": "인허가비용_총비용",
+              "data": 20,
+              "unit": "억원/고정비",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "건설비용",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "기존",
+              "name": "유지비용",
+              "data": 70,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용",
+              "data": null,
+              "unit": "",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용_3MW이하",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용_3MW~10MW",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용_10MW이상",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "계통연계비용_송전선로",
+              "data": 0,
+              "unit": "백만원/km",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "인허가비용",
+              "data": null,
+              "unit": "",
+              "modify": false,
+              "is_default": true,
+              "depth": 2
+            },
+            {
+              "group": "기존",
+              "name": "인허가비용_3MW이상",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "인허가비용_10MW이상",
+              "data": 0,
+              "unit": "천원/kW",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            },
+            {
+              "group": "기존",
+              "name": "인허가비용_총비용",
+              "data": 0,
+              "unit": "억원/고정비",
+              "modify": true,
+              "is_default": true,
+              "depth": 3
+            }
+          ]
+        }
+      ],
+      "uniqueId": "f1196ac6-c27f-4fdb-87c9-f75ad40801fa",
+      "lat": 35.223258,
+      "lng": 126.860399,
+      "modifiedAt": "2025-11-11T07:43:49.571Z",
+      "expansionType": "신축"
+    }
+  ]
+]
