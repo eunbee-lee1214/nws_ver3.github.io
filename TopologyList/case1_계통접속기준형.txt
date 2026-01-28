@@ -19,7 +19,7 @@
           "values": [
             {
               "name": "수요용량",
-              "data": 0,
+              "data": 1,
               "unit": "MW",
               "modify": false,
               "is_default": true,
@@ -43,7 +43,7 @@
             },
             {
               "name": "여유 용량",
-              "data": 0,
+              "data": 400,
               "unit": "MW",
               "modify": true,
               "is_default": false,
@@ -51,7 +51,7 @@
             },
             {
               "name": "최대 수용 용량",
-              "data": 13,
+              "data": 500,
               "unit": "MW",
               "modify": true,
               "is_default": false,
@@ -73,10 +73,10 @@
         {
           "name": "",
           "depth": 1,
-          "values": [
+                    "values": [
             {
               "name": "수요용량",
-              "data": 0,
+              "data": 1,
               "unit": "MW",
               "modify": false,
               "is_default": true,
@@ -100,7 +100,7 @@
             },
             {
               "name": "여유용량",
-              "data": 0,
+              "data": 80,
               "unit": "MW",
               "modify": true,
               "is_default": false,
@@ -108,7 +108,7 @@
             },
             {
               "name": "최대수용용량",
-              "data": 13,
+              "data": 100,
               "unit": "MW",
               "modify": true,
               "is_default": false,
@@ -201,7 +201,7 @@
           "values": [
             {
               "name": "수요용량",
-              "data": 0,
+              "data": 1,
               "unit": "MW",
               "modify": false,
               "is_default": true,
@@ -209,7 +209,7 @@
             },
             {
               "name": "여유용량",
-              "data": 0,
+              "data": 10,
               "unit": "MW",
               "modify": true,
               "is_default": false,
@@ -788,7 +788,7 @@
       "lat": 35.583908,
       "lng": 126.562562
     },
-    {
+        {
       "label": "345kV-A",
       "id": 3,
       "setProperty": true,
@@ -799,7 +799,7 @@
           "values": [
             {
               "name": "수요용량",
-              "data": 0,
+              "data": 1,
               "unit": "MW",
               "modify": false,
               "is_default": true,
@@ -823,7 +823,7 @@
             },
             {
               "name": "여유 용량",
-              "data": 0,
+              "data": 400,
               "unit": "MW",
               "modify": true,
               "is_default": false,
@@ -831,7 +831,7 @@
             },
             {
               "name": "최대 수용 용량",
-              "data": 13,
+              "data": 500,
               "unit": "MW",
               "modify": true,
               "is_default": false,
@@ -853,10 +853,10 @@
         {
           "name": "",
           "depth": 1,
-          "values": [
+                    "values": [
             {
               "name": "수요용량",
-              "data": 0,
+              "data": 1,
               "unit": "MW",
               "modify": false,
               "is_default": true,
@@ -880,7 +880,7 @@
             },
             {
               "name": "여유용량",
-              "data": 0,
+              "data": 80,
               "unit": "MW",
               "modify": true,
               "is_default": false,
@@ -888,7 +888,7 @@
             },
             {
               "name": "최대수용용량",
-              "data": 13,
+              "data": 100,
               "unit": "MW",
               "modify": true,
               "is_default": false,
@@ -981,7 +981,7 @@
           "values": [
             {
               "name": "수요용량",
-              "data": 0,
+              "data": 1,
               "unit": "MW",
               "modify": false,
               "is_default": true,
@@ -989,7 +989,7 @@
             },
             {
               "name": "여유용량",
-              "data": 0,
+              "data": 10,
               "unit": "MW",
               "modify": true,
               "is_default": false,
@@ -1568,7 +1568,7 @@
       "lat": 35.583908,
       "lng": 126.562562
     },
-    {
+        {
       "label": "345kV-A",
       "id": 3,
       "setProperty": true,
@@ -1579,7 +1579,7 @@
           "values": [
             {
               "name": "수요용량",
-              "data": 0,
+              "data": 1,
               "unit": "MW",
               "modify": false,
               "is_default": true,
@@ -1603,7 +1603,7 @@
             },
             {
               "name": "여유 용량",
-              "data": 0,
+              "data": 400,
               "unit": "MW",
               "modify": true,
               "is_default": false,
@@ -1611,7 +1611,7 @@
             },
             {
               "name": "최대 수용 용량",
-              "data": 13,
+              "data": 500,
               "unit": "MW",
               "modify": true,
               "is_default": false,
@@ -1633,10 +1633,10 @@
         {
           "name": "",
           "depth": 1,
-          "values": [
+                    "values": [
             {
               "name": "수요용량",
-              "data": 0,
+              "data": 1,
               "unit": "MW",
               "modify": false,
               "is_default": true,
@@ -1660,7 +1660,7 @@
             },
             {
               "name": "여유용량",
-              "data": 0,
+              "data": 80,
               "unit": "MW",
               "modify": true,
               "is_default": false,
@@ -1668,7 +1668,7 @@
             },
             {
               "name": "최대수용용량",
-              "data": 13,
+              "data": 100,
               "unit": "MW",
               "modify": true,
               "is_default": false,
@@ -1761,7 +1761,7 @@
           "values": [
             {
               "name": "수요용량",
-              "data": 0,
+              "data": 1,
               "unit": "MW",
               "modify": false,
               "is_default": true,
@@ -1769,7 +1769,7 @@
             },
             {
               "name": "여유용량",
-              "data": 0,
+              "data": 10,
               "unit": "MW",
               "modify": true,
               "is_default": false,
@@ -2822,7 +2822,7 @@
       "lat": 35.583908,
       "lng": 126.562562
     },
-    {
+        {
       "label": "345kV-A",
       "id": 3,
       "setProperty": true,
@@ -2833,7 +2833,7 @@
           "values": [
             {
               "name": "수요용량",
-              "data": 0,
+              "data": 1,
               "unit": "MW",
               "modify": false,
               "is_default": true,
@@ -2857,7 +2857,7 @@
             },
             {
               "name": "여유 용량",
-              "data": 0,
+              "data": 400,
               "unit": "MW",
               "modify": true,
               "is_default": false,
@@ -2865,7 +2865,7 @@
             },
             {
               "name": "최대 수용 용량",
-              "data": 13,
+              "data": 500,
               "unit": "MW",
               "modify": true,
               "is_default": false,
@@ -2887,10 +2887,10 @@
         {
           "name": "",
           "depth": 1,
-          "values": [
+                    "values": [
             {
               "name": "수요용량",
-              "data": 0,
+              "data": 1,
               "unit": "MW",
               "modify": false,
               "is_default": true,
@@ -2914,7 +2914,7 @@
             },
             {
               "name": "여유용량",
-              "data": 0,
+              "data": 80,
               "unit": "MW",
               "modify": true,
               "is_default": false,
@@ -2922,7 +2922,7 @@
             },
             {
               "name": "최대수용용량",
-              "data": 13,
+              "data": 100,
               "unit": "MW",
               "modify": true,
               "is_default": false,
@@ -3015,7 +3015,7 @@
           "values": [
             {
               "name": "수요용량",
-              "data": 0,
+              "data": 1,
               "unit": "MW",
               "modify": false,
               "is_default": true,
@@ -3023,7 +3023,7 @@
             },
             {
               "name": "여유용량",
-              "data": 0,
+              "data": 10,
               "unit": "MW",
               "modify": true,
               "is_default": false,
@@ -4076,7 +4076,7 @@
       "lat": 35.583908,
       "lng": 126.562562
     },
-    {
+        {
       "label": "345kV-A",
       "id": 3,
       "setProperty": true,
@@ -4087,7 +4087,7 @@
           "values": [
             {
               "name": "수요용량",
-              "data": 0,
+              "data": 1,
               "unit": "MW",
               "modify": false,
               "is_default": true,
@@ -4111,7 +4111,7 @@
             },
             {
               "name": "여유 용량",
-              "data": 0,
+              "data": 400,
               "unit": "MW",
               "modify": true,
               "is_default": false,
@@ -4119,7 +4119,7 @@
             },
             {
               "name": "최대 수용 용량",
-              "data": 13,
+              "data": 500,
               "unit": "MW",
               "modify": true,
               "is_default": false,
@@ -4141,10 +4141,10 @@
         {
           "name": "",
           "depth": 1,
-          "values": [
+                    "values": [
             {
               "name": "수요용량",
-              "data": 0,
+              "data": 1,
               "unit": "MW",
               "modify": false,
               "is_default": true,
@@ -4168,7 +4168,7 @@
             },
             {
               "name": "여유용량",
-              "data": 0,
+              "data": 80,
               "unit": "MW",
               "modify": true,
               "is_default": false,
@@ -4176,7 +4176,7 @@
             },
             {
               "name": "최대수용용량",
-              "data": 13,
+              "data": 100,
               "unit": "MW",
               "modify": true,
               "is_default": false,
@@ -4269,7 +4269,7 @@
           "values": [
             {
               "name": "수요용량",
-              "data": 0,
+              "data": 1,
               "unit": "MW",
               "modify": false,
               "is_default": true,
@@ -4277,7 +4277,7 @@
             },
             {
               "name": "여유용량",
-              "data": 0,
+              "data": 10,
               "unit": "MW",
               "modify": true,
               "is_default": false,
@@ -5084,7 +5084,7 @@
       "lat": 35.583908,
       "lng": 126.562562
     },
-    {
+        {
       "label": "345kV-A",
       "id": 3,
       "setProperty": true,
@@ -5095,7 +5095,7 @@
           "values": [
             {
               "name": "수요용량",
-              "data": 0,
+              "data": 1,
               "unit": "MW",
               "modify": false,
               "is_default": true,
@@ -5119,7 +5119,7 @@
             },
             {
               "name": "여유 용량",
-              "data": 0,
+              "data": 400,
               "unit": "MW",
               "modify": true,
               "is_default": false,
@@ -5127,7 +5127,7 @@
             },
             {
               "name": "최대 수용 용량",
-              "data": 13,
+              "data": 500,
               "unit": "MW",
               "modify": true,
               "is_default": false,
@@ -5149,10 +5149,10 @@
         {
           "name": "",
           "depth": 1,
-          "values": [
+                    "values": [
             {
               "name": "수요용량",
-              "data": 0,
+              "data": 1,
               "unit": "MW",
               "modify": false,
               "is_default": true,
@@ -5176,7 +5176,7 @@
             },
             {
               "name": "여유용량",
-              "data": 0,
+              "data": 80,
               "unit": "MW",
               "modify": true,
               "is_default": false,
@@ -5184,7 +5184,7 @@
             },
             {
               "name": "최대수용용량",
-              "data": 13,
+              "data": 100,
               "unit": "MW",
               "modify": true,
               "is_default": false,
@@ -5277,7 +5277,7 @@
           "values": [
             {
               "name": "수요용량",
-              "data": 0,
+              "data": 1,
               "unit": "MW",
               "modify": false,
               "is_default": true,
@@ -5285,7 +5285,7 @@
             },
             {
               "name": "여유용량",
-              "data": 0,
+              "data": 10,
               "unit": "MW",
               "modify": true,
               "is_default": false,
